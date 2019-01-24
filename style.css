@@ -24,8 +24,8 @@ body{
 }
 
 .right{ float: right; }
-.red{ color: #FF5049 !important; }
-.red-focus:focus{ border: 1px solid #FF5049 !important; }
+.red{ color: #eb3c35 !important; }
+.red-focus:focus{ border: 1px solid #eb3c35 !important; }
 
 /*******
 Top Part
@@ -258,6 +258,23 @@ h2 {
 /*****
 Select
 *****/
+
+.add__type {
+    font-family: Open Sans, 'Arial', sans-serif;
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 44px;
+    font-size: 18px;
+    color: inherit;
+    background-color: #fff;
+    padding-left: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: 100;
+    transition: border 0.3s;
+    text-align: center;
+    border-radius: 5px;
+}
 
 /* The container must be positioned relative: */
 

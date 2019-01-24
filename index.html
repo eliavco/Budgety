@@ -18,14 +18,14 @@
                 <div class="budget__value">+ 2,345.64</div>
 
                 <div class="budget__incomes clearfix">
-                    <div class="budget__incomes--text">Income</div>
+                    <div class="budget__incomes--text">Incomes</div>
                     <div class="right">
                         <div class="budget__incomes--value">+ 4,300.00</div>
                         <div class="budget__incomes--percentage">&nbsp;</div>
                     </div>
                 </div>
                 <div class="budget__expenses clearfix">
-                    <div class="budget__expenses--text">Income</div>
+                    <div class="budget__expenses--text">Expenses</div>
                     <div class="right clearfix">
                         <div class="budget__expenses--value">- 1,954.36</div>
                         <div class="budget__expenses--percentage">45%</div>
@@ -37,13 +37,10 @@
         <div class="bottom">
             <div class="add">
                 <div class="add__container">
-                    <div class="custom-select" id="sel">
-                        <select class="add__type">
-                            <option value="inc">&nbsp;</option>
-                            <option value="inc">+</option>
-                            <option value="exp">-</option>
-                        </select>
-                    </div>
+                    <select class="add__type">
+                        <option value="inc">+</option>
+                        <option value="exp">-</option>
+                    </select>
                     <input class="add__description" type="text" placeholder="Description">
                     <input class="add__value" type="number" placeholder="Value">
                     <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
@@ -54,27 +51,31 @@
                     <h2 class="incomes__title">Incomes</h2>
                     <div class="incomes__list">
 
-<!--
-                        <div class="item clearfix" id="income-0">
+                        <!--
+                        <div class="item clearfix" id="inc-0">
                             <div class="item__description">Salary</div>
                             <div class="right clearfix">
                                 <div class="item__value">+ 2,100.00</div>
                                 <div class="item__delete">
-                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="item clearfix" id="income-1">
+                        <div class="item clearfix" id="inc-1">
                             <div class="item__description">Sold Car</div>
                             <div class="right clearfix">
                                 <div class="item__value">+ 1,500.00</div>
                                 <div class="item__delete">
-                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
--->
+                        -->
 
                     </div>
                 </div>
@@ -83,8 +84,8 @@
                     <h2 class="expenses__title">Expenses</h2>
                     <div class="expenses__list">
 
-<!--
-                        <div class="item clearfix" id="income-0">
+                        <!--
+                        <div class="item clearfix" id="exp-0">
                             <div class="item__description">Apartment Rent</div>
                             <div class="right clearfix">
                                 <div class="item__value">- 900.00</div>
@@ -95,7 +96,7 @@
                             </div>
                         </div>
 
-                        <div class="item clearfix" id="income-1">
+                        <div class="item clearfix" id="exp-1">
                             <div class="item__description">Grocery Shopping</div>
                             <div class="right clearfix">
                                 <div class="item__value">- 435.28</div>
@@ -105,7 +106,7 @@
                                 </div>
                             </div>
                         </div>
--->
+                        -->
 
                     </div>
                 </div>
